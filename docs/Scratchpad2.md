@@ -3,17 +3,11 @@ Scratchpad
 
 # About
 This scratchpad exists as evidence for purposes of documenting the steps and processes of this work.
-Alot of ideas and information exists here.I choose to add it here for purposes of deisgn, ideation and build of this project.
-It is possible parts of it to be missing, removed or changed from time to time for personal reasons  by the [AUTHORS](#).
+Alot of ideas and information exists here.I choose to add it here for purposes of design, ideation and build of this project.It is possible parts of it to be missing, removed or changed from time to time for personal reasons by the [AUTHORS](#).
 
 #### Build Structure
-This project was build using the self contained waterfall structure.
-We reference  is at the Project [BuildStructure.md](./docs/buildstructure.md)
+This project was build using the self contained(monolith) waterfall [Build Structure](./docs/buildstructure.md)
 
-####Flow of Execution
-#### Build Structure
-This project was build using the self contained waterfall structure.
-We reference is at the Project [BuildStructure.md](./docs/buildstructure.md)
 
 ## Flow of Execution
 

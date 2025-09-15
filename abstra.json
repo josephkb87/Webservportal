@@ -18,7 +18,100 @@
   },
   "jobs": [],
   "hooks": [],
-  "forms": [],
-  "scripts": [],
+  "forms": [
+    {
+      "file": "forms/employee_registration.py",
+      "workflow_position": [
+        100,
+        200
+      ],
+      "transitions": [],
+      "id": "01685b32-69b7-423b-8963-7f6acb0a532b",
+      "title": "Employee Registration",
+      "allow_restart": false,
+      "is_initial": true,
+      "start_button_text": null,
+      "access_control": {
+        "is_public": false,
+        "required_roles": []
+      },
+      "welcome_title": null,
+      "restart_button_text": null,
+      "notification_trigger": {
+        "variable_name": "assignee_emails",
+        "enabled": false
+      },
+      "timeout_message": null,
+      "auto_start": false,
+      "path": "forms-employee-registration",
+      "error_message": null,
+      "start_message": null,
+      "end_message": null
+    },
+    {
+      "file": "forms/hr_approval.py",
+      "workflow_position": [
+        400,
+        100
+      ],
+      "transitions": [],
+      "id": "417b7ff1-2a18-4cab-83b0-295ded61297f",
+      "title": "HR Approval",
+      "allow_restart": false,
+      "is_initial": true,
+      "start_button_text": null,
+      "access_control": {
+        "is_public": false,
+        "required_roles": []
+      },
+      "welcome_title": null,
+      "restart_button_text": null,
+      "notification_trigger": {
+        "variable_name": "assignee_emails",
+        "enabled": false
+      },
+      "timeout_message": null,
+      "auto_start": false,
+      "path": "forms-hr-approval",
+      "error_message": null,
+      "start_message": null,
+      "end_message": null
+    }
+  ],
+  "scripts": [
+    {
+      "file": "scripts/hr_review.py",
+      "workflow_position": [
+        400,
+        200
+      ],
+      "transitions": [],
+      "id": "976a578f-2350-4c4b-88fc-f72a4ea92315",
+      "title": "HR Review",
+      "is_initial": true
+    },
+    {
+      "file": "scripts/welcome_email.py",
+      "workflow_position": [
+        700,
+        200
+      ],
+      "transitions": [],
+      "id": "e8875ae7-16c0-471a-883d-124e955b0619",
+      "title": "Welcome Email",
+      "is_initial": true
+    },
+    {
+      "file": "scripts/it_setup.py",
+      "workflow_position": [
+        700,
+        100
+      ],
+      "transitions": [],
+      "id": "bc0253a6-2904-499d-bc22-96a6b938c326",
+      "title": "IT Setup",
+      "is_initial": true
+    }
+  ],
   "version": "15.0"
 }
