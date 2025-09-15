@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["KIYINI Joseph Balamazze <73903994+josephkb87@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.pyright]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

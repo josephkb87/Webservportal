@@ -1,0 +1,13 @@
+[template.licenses]
+headers = true
+default = [
+    "MIT",
+]
+[template.plugins.default]
+tests = true
+
+[template.plugins.default]
+ci = false
+
+[template.plugins.default]
+src-layout = true

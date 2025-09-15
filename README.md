@@ -1,4 +1,13 @@
-# FARM Stack Webserver Portal
+The original README.md of this Webservportal is found in docs as [README.md](./FARMStackWebPortal/docs/README.md)
 
-We architect a simple WebServer Portal utilising the FARM(FastAPI.React MongoDB) Stack for the FrontEnd.And Rust for the BackEnd.We will have to utilse Streamlit for our data visualisation of our Portal.
+The original [README.md](./FARMStackWebPortal/docs/README.md) exists alone.
+
+All documents reference the [Scratchpad](./docs/Scratchpad2.md)
+the project utilised the following;
+
+** [BuildStructure.md](./docs/buildstructure.md)
+** [Project Structure](./docs/ProjectStructure.md)
+** [Flow of Execution](./docs/flowofexecution.md)
+
+[README.md](./docs/README.md) .[Changelog](./docs/CHANGELOG.md) . [Documentation](./FARMStackWebPortal/docs/sphinxdocs/docs/) [Build](./FARMStackWebPortal/docs/build)
 
