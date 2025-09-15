@@ -5,8 +5,6 @@ description = ""
 authors = ["KIYINI Joseph Balamazze <73903994+josephkb87@users.noreply.github.com>"]
 readme = "README.md"
 
-[tool.pyright]
-
 [tool.poetry.dependencies]
 python = "^3.12"
 
