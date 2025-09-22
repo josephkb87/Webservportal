@@ -19,7 +19,7 @@ async fn main() {
 }
 
 async fn start_server(addr: SocketAddr) {
-    let server = Server::bind(addr).serve(Router);
+    let server = Server::bind(addr).serve(Server);
     let app = Router::new().route("/", get(|| async { "Hello, world!" }));
 
     axum_server::bind(addr)
